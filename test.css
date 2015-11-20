@@ -1,4 +1,13 @@
 /* Userlist Roles */
+ul.avatar-list li.admin p.username:before { /* Admin */
+  content: url('http://i.imgur.com/040zpkE.png');
+  margin-right: 5px;
+}
+
+ul.avatar-list li.admin p.username { /* Admin */
+  color: #878C8E;
+}
+
 ul.avatar-list li.user-the_igorce9 p.username:before { /* Global Moderator Icon */
   content: url('http://www.pokecommunity.com/images/icons/pc1point5/microphone.png');
   margin-right: 5px;
